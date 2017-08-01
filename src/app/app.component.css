@@ -1,0 +1,31 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.md-sidenav-left .md-theme-indigo, .md-sidenav-left .nav-theme {
+    background-color: #34495e;
+}
+
+html, body {
+    height: 100%;
+}
+.add{
+    position: absolute;
+     top: 100px;
+   
+     left: 120px;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 150px; /* .push must be the same height as .footer */
+}
+.navbar {
+    margin-bottom: 0;
+}
+.jumbotron{
+    background: #F44336;
+}

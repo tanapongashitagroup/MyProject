@@ -1,0 +1,46 @@
+<!-- warn primary -->
+<md-toolbar color="primary">
+  MyProject
+  <br>
+  <span class="example-spacer"></span>
+  <button md-button>Home</button>
+  <button md-button>About me</button>
+
+
+
+</md-toolbar>
+
+
+<md-card>UX DESIGN</md-card>
+<md-progress-bar color="warn" mode="indeterminate"></md-progress-bar>
+<br>
+<div class="container wrapper">
+  <md-card>
+    <vg-player>
+      <video [vgMedia]="media" #media id="singleVideo" preload="auto" controls>
+        <source src="http://static.videogular.com/assets/videos/videogular.mp4" type="video/mp4">
+      </video>
+    </vg-player>
+  </md-card>
+
+  <div class="row add">
+    <div class="col-md-3">
+      <button md-fab color="warn"><md-icon>+</md-icon></button>
+    </div>
+
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-3">
+      <md-card>Simple card</md-card>
+    </div>
+    <div class="col-md-3">
+      <md-card>Simple card</md-card>
+    </div>
+  </div>
+  <div class="push"></div>
+</div>
+<br>
+<md-card class="footer">
+  Powered by Google ©2010-2017. Code licensed under an MIT-style License. Documentation licensed under CC BY 4.0.
+</md-card>
